@@ -5,12 +5,10 @@ metadata:
   name: nginx
   namespace: flux-system
 spec:
-  chart:
-    spec:
-      chart: nginx
-      sourceRef:
-        kind: HelmRepository
-        name: bitnami
-        tags: 9.7.0  
-  interval: 1m0s
-  releaseName: nginx
+   chart: nginx
+   sourceRef:
+      kind: HelmRepository
+      name: bitnami
+      tags: 9.7.0  
+   interval: 1m0s
+   releaseName: nginx
