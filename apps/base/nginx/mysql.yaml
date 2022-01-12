@@ -11,7 +11,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami  
-        tags: 8.8.19  
   interval: 30s
   releaseName: mysql
 auth:    
