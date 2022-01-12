@@ -7,11 +7,11 @@ metadata:
 spec:
   chart:
     spec:
-      chart: mysql
-      version: 8.8.19  
+      chart: mysql  
       sourceRef:
         kind: HelmRepository
         name: bitnami  
+        tags: 8.8.19  
   interval: 30s
   releaseName: mysql
 
