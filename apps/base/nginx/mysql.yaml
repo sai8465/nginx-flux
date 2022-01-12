@@ -11,6 +11,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
+        version: 8.8.19  
   interval: 30s
   releaseName: mysql
 
