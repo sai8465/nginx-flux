@@ -13,8 +13,3 @@ spec:
         name: bitnami  
   interval: 30s
   releaseName: mysql
-auth:    
-   database: mysql
-   password: 123456
-   username: mysql
-   rootPassword: 123456
