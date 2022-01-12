@@ -5,11 +5,9 @@ metadata:
   name: mysql
   namespace: flux-system
 spec:
-  chart:
-    spec:
-      chart: mysql  
-      sourceRef:
-        kind: HelmRepository
-        name: bitnami  
-  interval: 30s
-  releaseName: mysql
+   chart: mysql  
+   sourceRef:
+      kind: HelmRepository
+      name: bitnami  
+interval: 30s
+releaseName: mysql
